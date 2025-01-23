@@ -1,0 +1,14 @@
+name: char-contr-dev
+channels:
+- conda-forge
+dependencies:
+  - python>=3.12
+  - ipython
+  - jupyter
+  - ipykernel
+  - numpy>=1.23.4
+  - scipy>=1.9.3
+  - pandas>=1.5.2
+  - bokeh>=3.0
+  - matplotlib
+  - pip>=22.3.1

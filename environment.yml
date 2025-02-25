@@ -2,13 +2,20 @@ name: char-contr-dev
 channels:
 - conda-forge
 dependencies:
-  - python>=3.12
+  - python>=3.10, <3.13
+  - numpy>=1.26
+  - pandas>=2.2
+  - bokeh>=3.0
   - ipython
   - jupyter
   - ipykernel
-  - numpy>=1.23.4
-  - scipy>=1.9.3
-  - pandas>=1.5.2
-  - bokeh>=3.0
   - matplotlib
-  - pip>=22.3.1
+  - behresp
+  - openpyxl
+  - pip
+  - pip:
+      - taxcalc
+      - taxbrain
+      - pypandoc
+      - tabulate
+      - xlrd

@@ -1,0 +1,10 @@
+// REFORM TO EXTEND TEMPORARY TCJA PROVISIONS BEYOND 2025
+// REFORM TO ADD $2K ABOVE THE LINE CHARITABLE DEDUCTION CAP
+{
+    "STD_allow_charity_ded_nonitemizers": {"2025": true},
+    "STD_charity_ded_nonitemizers_max": {
+        "2025": [500.0, 1000.0, 500.0, 500.0, 500.0]
+    },
+    "ID_Charity_crt_cash": {"2025": 0.01},
+    "ID_Charity_crt_noncash": {"2025": 0.01}
+}

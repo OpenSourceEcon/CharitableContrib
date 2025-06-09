@@ -1,4 +1,4 @@
-name: char-contr-dev
+name: char-contr-dev2
 channels:
 - conda-forge
 dependencies:

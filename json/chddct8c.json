@@ -1,0 +1,9 @@
+// ALLOW DEDUCTIBILITY FOR NON-ITEMIZERS UP TO A MAXIMUM OF $5,000 FOR SINGLE FILERS AND $10,000 FOR MARRIED FILERS BEGINNING IN 2026
+// ADD A DEDUCTIBILITY FLOOR OF 1.0% FO ALL ITEMIZERS BEGINNING IN 2026
+{
+    "STD_allow_charity_ded_nonitemizers": {"2026": true},
+    "STD_charity_ded_nonitemizers_max": {
+        "2026": [5000.0, 10000.0, 5000.0, 5000.0, 5000.0]
+    },
+    "ID_Charity_frt": {"2026": 0.010}
+}
